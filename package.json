@@ -1,0 +1,31 @@
+{
+  "name": "snake-case",
+  "version": "0.0.0",
+  "description": "Snake case a string",
+  "main": "snake-case.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blakeembrey/snake-case.git"
+  },
+  "keywords": [
+    "snake",
+    "case",
+    "underscore"
+  ],
+  "author": "Blake Embrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blakeembrey/snake-case/issues"
+  },
+  "homepage": "https://github.com/blakeembrey/snake-case",
+  "devDependencies": {
+    "istanbul": "^0.2.6",
+    "mocha": "^1.18.2"
+  },
+  "dependencies": {
+    "sentence-case": "0.0.1"
+  }
+}
