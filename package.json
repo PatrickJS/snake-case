@@ -26,6 +26,6 @@
     "mocha": "^1.18.2"
   },
   "dependencies": {
-    "sentence-case": "0.0.1"
+    "sentence-case": "0.0.2"
   }
 }
