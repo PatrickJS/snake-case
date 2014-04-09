@@ -7,5 +7,5 @@ var sentence = require('sentence-case');
  * @return {String}
  */
 module.exports = function (string) {
-  return sentence(string).replace(/ /g, '_');
+  return sentence(string).replace(/ \./g, '_');
 };
