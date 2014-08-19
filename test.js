@@ -20,5 +20,6 @@ describe('snake case', function () {
 
   it('should snake case snake cased strings', function () {
     assert.equal(snakeCase('TestString'), 'test_string');
+    assert.equal(snakeCase('TestString1_2_3'), 'test_string_1_2_3');
   });
 });
